@@ -11,15 +11,22 @@ h2{
     color: red;
 }
 body{
-    background-color: grey;
+    background-color: lightgray;
 }
 .hot{
     display: inline;
     color: red;
 }
-ul li{
+.nav{
     display: inline;
 }
-ul{
-    display: inline;
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
+.box{
+    margin: 100px;
+}
+
+
