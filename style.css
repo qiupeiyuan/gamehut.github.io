@@ -5,6 +5,7 @@ img{
     width: 80px;
 }
 h1{
+    margin: auto;
     text-align: center;
 }
 h2{
@@ -28,5 +29,33 @@ body{
 .box{
     margin: 100px;
 }
+.li{
+    margin: 50px;
+}
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "sidebar main"
+    "footer footer";
+    grid-template-columns: 1fr 2fr;
+}
 
-
+nav{
+    grid-area: nav;
+}
+aside{
+    grid-area: sidebar;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+.img{
+    position: fixed;
+    left: 3px;
+    top: 3px;
+    width: 80px;
+}
+      
