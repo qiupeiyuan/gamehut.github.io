@@ -1,5 +1,5 @@
-img{
-    position: fixed;
+.logo{
+    position: absolute;
     right: 5px;
     top: 5px;
     width: 80px;
@@ -34,28 +34,31 @@ body{
 }
 .grid{
     display: grid;
-    grid-template-areas: 
-    "sidebar main"
-    "footer footer";
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 5fr;
 }
 
-nav{
-    grid-area: nav;
-}
-aside{
-    grid-area: sidebar;
-}
-main{
-    grid-area: main;
-}
-footer{
-    grid-area: footer;
-}
 .img{
-    position: fixed;
-    left: 3px;
-    top: 3px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
     width: 80px;
+}
+.games{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    overflow: scroll;
+}
+.game img{
+   width: 100%;
+
+}
+.alex{
+    position: absolute;
+    left: 65px;
+    top: 110px;
+}
+.among{
+    width: 50%;
 }
       
