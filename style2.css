@@ -1,0 +1,26 @@
+.game2{
+    margin: auto;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.games{
+    margin: 10px; 
+}
+.ga{
+    margin: 60px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.img{
+    width: 170px;
+}
+.button{
+    width: 50px;
+}
